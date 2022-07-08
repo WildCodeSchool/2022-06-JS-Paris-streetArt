@@ -12,15 +12,18 @@ function Contact() {
         onSubmit="submit"
       >
         <label htmlFor="name" value="nom">
+          Nom :
           <input id="name" type="text" name="name" />
         </label>
 
         <input type="hidden" name="form-name" value="contact" />
         <label htmlFor="email" value="email">
+          Email :
           <input id="email" type="email" name="email" />
         </label>
 
         <label htmlFor="message" value="message">
+          Message :
           <textarea id="message" name="message" />
         </label>
 
