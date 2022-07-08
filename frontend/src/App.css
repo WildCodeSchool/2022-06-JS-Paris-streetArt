@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background-image: url(/src/image/street-art2.jpg);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
 }
 
 code {
@@ -19,6 +23,60 @@ code {
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-image: url(/src/image/street-art.jpg);
+  background-size: auto;
+  height: 100px;
+}
+
+p {
+  height: 800px;
+  color: red;
+}
+
+.social-container {
+  background: #eee;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  /* -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; */
+  border-radius: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
