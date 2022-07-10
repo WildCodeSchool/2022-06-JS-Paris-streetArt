@@ -16,6 +16,7 @@ import Artistes from "./components/Artistes";
 import Banksy from "./components/Banksy";
 import Levalet from "./components/Levalet";
 import Mto from "./components/Mto";
+import MapConnery from "./components/MapConnery";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           <Route path="/mto" element={<Mto />} />
         </Routes>
         <SocialFollow />
+        <MapConnery />
       </div>
     </Router>
   );
