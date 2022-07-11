@@ -11,13 +11,7 @@ import Artistes from "./components/Artistes";
 import Banksy from "./components/Banksy";
 import Levalet from "./components/Levalet";
 import Mto from "./components/Mto";
-import MapConnery from "./components/MapConnery";
 import MapProvins from "./components/MapProvins";
-import MapPoncet from "./components/MapPoncet";
-import MapEco from "./components/MapEco";
-import MapMalle from "./components/MapMalle";
-import MapRose from "./components/MapRose";
-import MapLouisXIII from "./components/MapLouisXIII";
 import DescriptionPoncet from "./components/DescriptionPoncet";
 import DescriptionLouisXIII from "./components/DescriptionLouisXIII";
 import DescriptionMalle from "./components/DescriptionMalle";
@@ -36,20 +30,14 @@ function App() {
           <Route path="/oeuvres" element={<Oeuvres />} />
           <Route path="/localisation" element={<MapProvins />} />
           <Route path="/descriptionPoncet" element={<DescriptionPoncet />} />
-          <Route path="/MapPoncet" element={<MapPoncet />} />
           <Route
             path="/descriptionLouisXIII"
             element={<DescriptionLouisXIII />}
           />
-          <Route path="/MapLouisXIII" element={<MapLouisXIII />} />
           <Route path="/descriptionMalle" element={<DescriptionMalle />} />
-          <Route path="/MapMalle" element={<MapMalle />} />
           <Route path="/descriptionRose" element={<DescriptionRose />} />
-          <Route path="/MapRose" element={<MapRose />} />
           <Route path="/descriptionConnery" element={<DescriptionConnery />} />
-          <Route path="/MapConnery" element={<MapConnery />} />
           <Route path="/descriptionEco" element={<DescriptionEco />} />
-          <Route path="/MapEco" element={<MapEco />} />
           <Route path="/descriptionC215" element={<DescriptionC215 />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/banksy" element={<Banksy />} />

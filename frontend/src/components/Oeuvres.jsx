@@ -6,7 +6,6 @@ import louism from "../image/Louis Malle.jpg";
 import rose from "../image/Rose de Provins.jpg";
 import sean from "../image/Seanconnery.jpg";
 import umberto from "../image/Umberto ECO.jpg";
-import DescriptionPoncet from "./DescriptionPoncet";
 
 export default function Oeuvres() {
   return (
@@ -28,9 +27,6 @@ export default function Oeuvres() {
       </Link>
       <Link to="/DescriptionEco">
         <img src={umberto} alt="Eco" height="230px" width="230px" />
-      </Link>
-      <Link to="/MapPoncet">
-        <DescriptionPoncet />
       </Link>
     </div>
   );

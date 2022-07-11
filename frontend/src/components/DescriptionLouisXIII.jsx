@@ -1,4 +1,5 @@
 import React from "react";
+import MapLouisXIII from "./MapLouisXIII";
 
 function DescriptionLouisXIII() {
   return (
@@ -13,6 +14,9 @@ function DescriptionLouisXIII() {
         saint Martin, qui commence le jour de la saint André et dure jusqu'à la
         fin du mois de décembre.
       </p>
+      <div className="carte">
+        <MapLouisXIII />
+      </div>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import MapConnery from "./MapConnery";
 
 function DescriptionConnery() {
   return (
@@ -10,6 +11,9 @@ function DescriptionConnery() {
         médiéval du même nom écrit par Umberto Eco qui publie par la suite 'Le
         pendule de Foucault' dont l'intrigue se passe en partie à Provins.
       </p>
+      <div className="carte">
+        <MapConnery />
+      </div>
     </div>
   );
 }

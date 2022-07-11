@@ -1,4 +1,5 @@
 import React from "react";
+import MapPoncet from "./MapPoncet";
 
 function DescriptionPoncet() {
   return (
@@ -10,6 +11,9 @@ function DescriptionPoncet() {
         1955, puis membre de l'Académie des sciences morales en 1961, André
         François-Poncet a écrit plusieurs ouvrages historiques.
       </p>
+      <div className="carte">
+        <MapPoncet />
+      </div>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import MapMalle from "./MapMalle";
 
 function DescriptionMalle() {
   return (
@@ -12,6 +13,9 @@ function DescriptionMalle() {
         L'oeuvre est un triomphe, et obtient plusieurs récompenses dont le César
         du meilleur film et du meilleur réalisateur.
       </p>
+      <div className="carte">
+        <MapMalle />
+      </div>
     </div>
   );
 }

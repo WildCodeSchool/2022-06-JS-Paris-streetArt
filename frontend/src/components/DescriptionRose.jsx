@@ -1,4 +1,5 @@
 import React from "react";
+import MapRose from "./MapRose";
 
 function DescriptionRose() {
   return (
@@ -10,6 +11,9 @@ function DescriptionRose() {
         Gallica Officinalis, qui veut dire rose de France ayant des vertus
         médicinales et gustatives. On la nomme aussi Rose des Apothicaires.
       </p>
+      <div className="carte">
+        <MapRose />
+      </div>
     </div>
   );
 }
