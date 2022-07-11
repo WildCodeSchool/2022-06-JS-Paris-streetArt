@@ -13,6 +13,7 @@ function DescriptionConnery() {
       </p>
       <div className="carte">
         <MapConnery />
+        <h2>17 rue St Thibault</h2>
       </div>
     </div>
   );

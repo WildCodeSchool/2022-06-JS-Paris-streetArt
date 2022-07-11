@@ -13,6 +13,7 @@ function DescriptionPoncet() {
       </p>
       <div className="carte">
         <MapPoncet />
+        <h2>16 rue Valentin Abeille</h2>
       </div>
     </div>
   );

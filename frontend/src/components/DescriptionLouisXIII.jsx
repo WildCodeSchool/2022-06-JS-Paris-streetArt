@@ -16,6 +16,7 @@ function DescriptionLouisXIII() {
       </p>
       <div className="carte">
         <MapLouisXIII />
+        <h2>1 rue St Thibault</h2>
       </div>
     </div>
   );

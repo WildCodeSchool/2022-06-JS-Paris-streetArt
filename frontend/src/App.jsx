@@ -11,13 +11,13 @@ import Artistes from "./components/Artistes";
 import Banksy from "./components/Banksy";
 import Levalet from "./components/Levalet";
 import Mto from "./components/Mto";
-import MapProvins from "./components/MapProvins";
 import DescriptionPoncet from "./components/DescriptionPoncet";
 import DescriptionLouisXIII from "./components/DescriptionLouisXIII";
 import DescriptionMalle from "./components/DescriptionMalle";
 import DescriptionRose from "./components/DescriptionRose";
 import DescriptionConnery from "./components/DescriptionConnery";
 import DescriptionEco from "./components/DescriptionEco";
+import Localisation from "./components/Localisation";
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/artistes" element={<Artistes />} />
           <Route path="/oeuvres" element={<Oeuvres />} />
-          <Route path="/localisation" element={<MapProvins />} />
+          <Route path="/localisation" element={<Localisation />} />
           <Route path="/descriptionPoncet" element={<DescriptionPoncet />} />
           <Route
             path="/descriptionLouisXIII"

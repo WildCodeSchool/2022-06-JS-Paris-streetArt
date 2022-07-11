@@ -13,6 +13,7 @@ function DescriptionRose() {
       </p>
       <div className="carte">
         <MapRose />
+        <h2>11 rue des prés</h2>
       </div>
     </div>
   );

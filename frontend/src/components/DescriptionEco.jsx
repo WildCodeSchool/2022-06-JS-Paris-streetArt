@@ -13,6 +13,7 @@ function DescriptionEco() {
       </p>
       <div className="carte">
         <MapEco />
+        <h2>3 rue St Thibault</h2>
       </div>
     </div>
   );

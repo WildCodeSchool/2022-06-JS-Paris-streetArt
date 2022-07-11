@@ -15,6 +15,7 @@ function DescriptionMalle() {
       </p>
       <div className="carte">
         <MapMalle />
+        <h2>5 rue des Jacobins</h2>
       </div>
     </div>
   );
