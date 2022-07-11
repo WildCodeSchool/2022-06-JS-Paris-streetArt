@@ -4,11 +4,6 @@ import "./App.css";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Oeuvres from "./components/Oeuvres";
-import Description from "./components/Description";
-import Description2 from "./components/Description2";
-import Description3 from "./components/Description3";
-import Description4 from "./components/Description4";
-import Description5 from "./components/Description5";
 import DescriptionC215 from "./components/DescriptionC215";
 import Contact from "./components/Contact";
 import SocialFollow from "./components/SocialFollow";
@@ -17,6 +12,18 @@ import Banksy from "./components/Banksy";
 import Levalet from "./components/Levalet";
 import Mto from "./components/Mto";
 import MapConnery from "./components/MapConnery";
+import MapProvins from "./components/MapProvins";
+import MapPoncet from "./components/MapPoncet";
+import MapEco from "./components/MapEco";
+import MapMalle from "./components/MapMalle";
+import MapRose from "./components/MapRose";
+import MapLouisXIII from "./components/MapLouisXIII";
+import DescriptionPoncet from "./components/DescriptionPoncet";
+import DescriptionLouisXIII from "./components/DescriptionLouisXIII";
+import DescriptionMalle from "./components/DescriptionMalle";
+import DescriptionRose from "./components/DescriptionRose";
+import DescriptionConnery from "./components/DescriptionConnery";
+import DescriptionEco from "./components/DescriptionEco";
 
 function App() {
   return (
@@ -27,11 +34,22 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/artistes" element={<Artistes />} />
           <Route path="/oeuvres" element={<Oeuvres />} />
-          <Route path="/description" element={<Description />} />
-          <Route path="/description2" element={<Description2 />} />
-          <Route path="/description3" element={<Description3 />} />
-          <Route path="/description4" element={<Description4 />} />
-          <Route path="/description5" element={<Description5 />} />
+          <Route path="/localisation" element={<MapProvins />} />
+          <Route path="/descriptionPoncet" element={<DescriptionPoncet />} />
+          <Route path="/MapPoncet" element={<MapPoncet />} />
+          <Route
+            path="/descriptionLouisXIII"
+            element={<DescriptionLouisXIII />}
+          />
+          <Route path="/MapLouisXIII" element={<MapLouisXIII />} />
+          <Route path="/descriptionMalle" element={<DescriptionMalle />} />
+          <Route path="/MapMalle" element={<MapMalle />} />
+          <Route path="/descriptionRose" element={<DescriptionRose />} />
+          <Route path="/MapRose" element={<MapRose />} />
+          <Route path="/descriptionConnery" element={<DescriptionConnery />} />
+          <Route path="/MapConnery" element={<MapConnery />} />
+          <Route path="/descriptionEco" element={<DescriptionEco />} />
+          <Route path="/MapEco" element={<MapEco />} />
           <Route path="/descriptionC215" element={<DescriptionC215 />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/banksy" element={<Banksy />} />
@@ -39,7 +57,6 @@ function App() {
           <Route path="/mto" element={<Mto />} />
         </Routes>
         <SocialFollow />
-        <MapConnery />
       </div>
     </Router>
   );
