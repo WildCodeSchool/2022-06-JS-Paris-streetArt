@@ -14,8 +14,8 @@ function DescriptionMalle() {
         du meilleur film et du meilleur réalisateur.
       </p>
       <div className="carte">
-        <MapMalle />
         <h2>5 rue des Jacobins</h2>
+        <MapMalle />
       </div>
     </div>
   );

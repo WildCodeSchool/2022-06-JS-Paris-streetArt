@@ -12,8 +12,8 @@ function DescriptionEco() {
         lieux dont les Souterrains et la Grange aux Dimes de Provins.
       </p>
       <div className="carte">
-        <MapEco />
         <h2>3 rue St Thibault</h2>
+        <MapEco />
       </div>
     </div>
   );

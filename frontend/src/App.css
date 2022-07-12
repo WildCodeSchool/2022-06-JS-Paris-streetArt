@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -7,7 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   background-image: url(/src/image/street-art2.jpg);
-  background-size: 100vw 100vh;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -33,16 +39,11 @@ nav {
   height: 100px;
 }
 
-p {
-  height: 800px;
-  color: red;
-}
-
 .social-container {
   background: #eee;
   opacity: 0.6;
   position: absolute;
-  bottom: 0;
+  bottom: -30;
   width: 100%;
 }
 
@@ -77,38 +78,4 @@ a.instagram {
   /* -webkit-background-clip: text;
    -webkit-text-fill-color: transparent; */
   border-radius: 20px;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-button {
-  font-size: calc(10px + 2vmin);
 }
