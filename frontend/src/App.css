@@ -11,7 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /*text-align: center;*/
   background-image: url(/src/image/street-art2.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
