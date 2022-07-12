@@ -15,8 +15,8 @@ function DescriptionLouisXIII() {
         fin du mois de décembre.
       </p>
       <div className="carte">
-        <MapLouisXIII />
         <h2>1 rue St Thibault</h2>
+        <MapLouisXIII />
       </div>
     </div>
   );
