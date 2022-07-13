@@ -1,6 +1,6 @@
 import React from "react";
 import MapRose from "./MapRose";
-import "./Description.css";
+import "../Description.css";
 
 function DescriptionRose() {
   return (

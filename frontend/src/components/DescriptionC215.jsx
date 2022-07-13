@@ -1,5 +1,5 @@
 import React from "react";
-import "./Description.css";
+import "../Description.css";
 
 function DescriptionC215() {
   return (
@@ -17,7 +17,8 @@ function DescriptionC215() {
         en adéquation avec le mouvement hip-hop. Christian Guémy s'installe à
         Vitry-sur-Seine en 2006 et commence à faire du pochoir. Il participe au
         MUR dès 2007 et réalise, en 2013, un mur peint de 25 mètres à Paris,
-        métro Nationale, représentant un chat. En 2013, il peint également le
+        métro Nationale, représentant un chat.
+        {/* En 2013, il peint également le
         visage de la ministre de la Justice, Christiane Taubira, alors cible
         d'attaques racistes. Le 4 janvier 2016, l'artiste réalise au pochoir sur
         une boîte à feu un portrait multiple du policier Ahmed Merabet orné du
@@ -41,7 +42,7 @@ function DescriptionC215() {
         et à l’étranger. Il a exposé dans de nombreux musées nationaux et
         collabore régulièrement avec des institutions publiques, culturelles ou
         sociales. C215 est considéré aujourd’hui comme l’un des pochoiristes les
-        plus reconnus de la scène Street art mondiale.
+        plus reconnus de la scène Street art mondiale. */}
       </p>
     </div>
   );

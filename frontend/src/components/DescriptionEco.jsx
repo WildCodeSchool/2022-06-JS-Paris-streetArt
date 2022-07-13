@@ -1,6 +1,6 @@
 import React from "react";
 import MapEco from "./MapEco";
-import "./Description.css";
+import "../Description.css";
 
 function DescriptionEco() {
   return (

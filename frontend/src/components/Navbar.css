@@ -167,5 +167,6 @@ ul {
 @media screen and (min-width: 767px) {
   #home {
     display: none;
+    position: fixed;
   }
 }

@@ -3,7 +3,7 @@ import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import Logo from "../image/logo-street-art.png";
 
-function Nav() {
+function Navbar() {
   const [showLinks, setShowLinks] = useState(false);
 
   const handleShowLinks = () => {
@@ -50,4 +50,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Navbar;
