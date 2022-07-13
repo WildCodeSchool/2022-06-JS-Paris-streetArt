@@ -13,8 +13,8 @@ function DescriptionConnery() {
         pendule de Foucault' dont l'intrigue se passe en partie à Provins.
       </p>
       <div className="carte">
-        <MapConnery />
         <h2>17 rue St Thibault</h2>
+        <MapConnery />
       </div>
     </div>
   );

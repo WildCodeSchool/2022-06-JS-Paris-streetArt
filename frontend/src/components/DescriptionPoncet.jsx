@@ -13,8 +13,8 @@ function DescriptionPoncet() {
         François-Poncet a écrit plusieurs ouvrages historiques.
       </p>
       <div className="carte">
-        <MapPoncet />
         <h2>16 rue Valentin Abeille</h2>
+        <MapPoncet />
       </div>
     </div>
   );

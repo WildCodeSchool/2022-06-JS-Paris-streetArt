@@ -13,8 +13,8 @@ function DescriptionRose() {
         médicinales et gustatives. On la nomme aussi Rose des Apothicaires.
       </p>
       <div className="carte">
-        <MapRose />
         <h2>11 rue des prés</h2>
+        <MapRose />
       </div>
     </div>
   );
