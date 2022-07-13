@@ -1,30 +1,53 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import logo from "../image/logo-street-art.png";
-import "../Navbar.css";
+import React, { useState } from "react";
+import "./Navbar.css";
+import { NavLink } from "react-router-dom";
+import Logo from "../image/logo-street-art.png";
 
-export default function Navbar() {
+function Navbar() {
+  const [showLinks, setShowLinks] = useState(false);
+
+  const handleShowLinks = () => {
+    setShowLinks(!showLinks);
+  };
+
   return (
-    <header>
-      <nav>
-        <Link id="link" to="/artistes">
-          Artistes
-        </Link>
-        <Link id="link" to="/oeuvres">
-          Gallerie
-        </Link>
-        <Link id="logo" to="/home">
-          <img src={logo} alt="logo" height="80px" width="80px" />
-        </Link>
-        <Link id="link" to="/Localisation">
-          {" "}
-          Localisation{" "}
-        </Link>
-        <Link id="link" to="/contact">
-          {" "}
-          Contact{" "}
-        </Link>
-      </nav>
-    </header>
+    <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"} `}>
+      <div className="navbar_logo" logo>
+        <img src={Logo} alt="Logo" height={50} />
+      </div>
+      <ul className="navbar_links">
+        <li className="navbar_items slideInDown-1">
+          <NavLink to="/artistes" className="navbar_link">
+            Artistes
+          </NavLink>
+        </li>
+        <li className="navbar_items slideInDown-2">
+          <NavLink to="/gallerie" className="navbar_link">
+            Gallerie
+          </NavLink>
+        </li>
+        <li className="navbar_items slideInDown-3">
+          <NavLink to="/home" className="navbar_link">
+            <img id="logo" src={Logo} alt="Logo" height={50} />
+            <span id="home">Home</span>
+          </NavLink>
+        </li>
+        <li className="navbar_items slideInDown-4">
+          <NavLink to="/localisation" className="navbar_link">
+            Localisation
+          </NavLink>
+        </li>
+        <li className="navbar_items slideInDown-5">
+          <NavLink to="/contact" className="navbar_link">
+            Contact
+          </NavLink>
+        </li>
+      </ul>
+      <button type="button" className="navbar_burger" onClick={handleShowLinks}>
+        <span className="burger_bar" />
+      </button>
+    </nav>
   );
 }
+
+export default Navbar;

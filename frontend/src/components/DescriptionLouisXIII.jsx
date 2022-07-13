@@ -1,9 +1,10 @@
 import React from "react";
 import MapLouisXIII from "./MapLouisXIII";
+import "../Description.css";
 
 function DescriptionLouisXIII() {
   return (
-    <div>
+    <div className="description">
       <p>
         Louis XIII est un roi de France de la dynastie des Bourbons. Surnommé
         "le Juste", il a régné de 1610 à 1643. En 1617, il porte confirmation
@@ -15,8 +16,8 @@ function DescriptionLouisXIII() {
         fin du mois de décembre.
       </p>
       <div className="carte">
-        <MapLouisXIII />
         <h2>1 rue St Thibault</h2>
+        <MapLouisXIII />
       </div>
     </div>
   );

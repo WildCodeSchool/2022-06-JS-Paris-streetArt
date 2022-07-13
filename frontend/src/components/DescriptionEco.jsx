@@ -1,9 +1,10 @@
 import React from "react";
 import MapEco from "./MapEco";
+import "../Description.css";
 
 function DescriptionEco() {
   return (
-    <div>
+    <div className="description">
       <p>
         Umberto Eco est un universitaire et écrivain italien. Surtout connu du
         grand public pour ses oeuvres romanesques, il est aussi auteur d'essais
@@ -12,8 +13,8 @@ function DescriptionEco() {
         lieux dont les Souterrains et la Grange aux Dimes de Provins.
       </p>
       <div className="carte">
-        <MapEco />
         <h2>3 rue St Thibault</h2>
+        <MapEco />
       </div>
     </div>
   );

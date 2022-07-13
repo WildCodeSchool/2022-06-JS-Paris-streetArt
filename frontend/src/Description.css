@@ -1,36 +1,43 @@
+.container {
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
 
-#artist-of-month{
-    width: 250px;
-    margin-top: 25px;
-    border-radius: 15px;
-    border: solid black;
-    
+#artist-of-month {
+  width: 250px;
+  margin-top: 25px;
+  border-radius: 15px;
+  border: solid black;
 }
 
 /*description C215*/
 p {
- color: black;
- width: 250px;
- border: solid black;
- background: darkgray;
- border-radius: 10px;
- margin-top: 50px;
- font-size: 20px;
- opacity: 0.75;
- padding: 15px;
- font-weight: bold;
+  color: black;
+  width: 250px;
+  border: solid black;
+  background: darkgray;
+  border-radius: 10px;
+  margin-top: 50px;
+  font-size: 20px;
+  opacity: 0.75;
+  padding: 15px;
+  font-weight: bold;
 }
-.description{
-    display: flex;
-    justify-content: center;
-    text-align: justify;
+.description {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
 }
-.description p{
-    margin-top: 150px;
+.description p {
+  margin-top: 150px;
 }
 
 /*container des images des oeuvres*/
-.container-img{
-    background-color: red;
-   }
-   
+.container-img {
+  background-color: red;
+}
