@@ -29,6 +29,8 @@ function App() {
           <Route path="/artistes" element={<Artistes />} />
           <Route path="/oeuvres" element={<Oeuvres />} />
           <Route path="/localisation" element={<Localisation />} />
+        </Routes>
+        <Routes>
           <Route path="/descriptionPoncet" element={<DescriptionPoncet />} />
           <Route
             path="/descriptionLouisXIII"

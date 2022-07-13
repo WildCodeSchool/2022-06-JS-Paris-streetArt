@@ -9,7 +9,7 @@ import umberto from "../image/Umberto ECO.jpg";
 
 export default function Oeuvres() {
   return (
-    <div>
+    <div className="container-img">
       <Link to="/DescriptionPoncet">
         <img src={andre} alt="Poncet" height="230px" width="230px" />
       </Link>
