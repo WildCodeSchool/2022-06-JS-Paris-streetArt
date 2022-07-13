@@ -1,69 +1,50 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  background-image: url(/src/image/street-art2.jpg);
-  background-size: 100vw 100vh;
-  background-repeat: no-repeat;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  padding: 0;
+  box-sizing: 0;
 }
 
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-nav {
-  display: flex;
-  justify-content: space-around;
+body {
+  text-align: center;
   background-image: url(/src/image/street-art.jpg);
-  background-size: auto;
-  height: 100px;
+  background-size: 280%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-color: rgb(200, 208, 211);
+  opacity: 0.36px;
 }
 
-p {
-  height: 800px;
-  color: red;
-}
-
+/* footer */
 .social-container {
-  background: #eee;
+  /* background: #eee; */
   opacity: 0.6;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
-
+/* logo reseau avec lien  */
 a.social {
   margin: 0 1rem;
   transition: transform 250ms;
   display: inline-block;
 }
-
 a.social:hover {
   transform: translateY(-2px);
 }
-
+/* lien fb */
 a.facebook {
   color: #4968ad;
 }
-
+/* lien twitter */
 a.twitter {
   color: #49a1eb;
 }
-
+/* lien insta */
 a.instagram {
   color: #d6249f;
   background: radial-gradient(
@@ -79,13 +60,7 @@ a.instagram {
   border-radius: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -94,21 +69,17 @@ a.instagram {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+} */
+
+/*container home artiste*/
+.containercard {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-button {
-  font-size: calc(10px + 2vmin);
-}
+.containercard h1{
+  margin-top: -65px;
+ }

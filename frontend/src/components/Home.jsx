@@ -5,11 +5,11 @@ import C215 from "../image/C215.jpg";
 
 function Home() {
   return (
-    <div>
+    <div className="containercard">
       <h1> Artiste du Mois</h1>
 
       <Link to="/descriptionC215">
-        <img src={C215} alt="C215" />
+        <img id="artist-of-month" src={C215} alt="C215" />
       </Link>
     </div>
   );

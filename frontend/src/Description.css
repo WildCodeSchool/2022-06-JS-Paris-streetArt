@@ -1,0 +1,36 @@
+
+#artist-of-month{
+    width: 250px;
+    margin-top: 25px;
+    border-radius: 15px;
+    border: solid black;
+    
+}
+
+/*description C215*/
+p {
+ color: black;
+ width: 250px;
+ border: solid black;
+ background: darkgray;
+ border-radius: 10px;
+ margin-top: 50px;
+ font-size: 20px;
+ opacity: 0.75;
+ padding: 15px;
+ font-weight: bold;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+.description p{
+    margin-top: 150px;
+}
+
+/*container des images des oeuvres*/
+.container-img{
+    background-color: red;
+   }
+   
