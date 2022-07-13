@@ -1,9 +1,10 @@
 import React from "react";
 import MapRose from "./MapRose";
+import "./Description.css";
 
 function DescriptionRose() {
   return (
-    <div>
+    <div className="description">
       <p>
         Ce serait vers 1240 que , de retour de croisade, le Comte de Champagne
         Thibaut IV installe la culture de la rose à Provins. C'est en 1759 que

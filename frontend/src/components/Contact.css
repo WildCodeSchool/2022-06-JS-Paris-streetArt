@@ -15,7 +15,14 @@
   margin: 0.3rem 0 1rem 0;
   padding: 0.3rem;
 }
-
+#name,
+#email,
+#message,
+button {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
 .contact_form button {
   font-size: 1.2rem;
 }

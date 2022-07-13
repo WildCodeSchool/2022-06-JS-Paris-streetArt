@@ -24,7 +24,15 @@ function SocialFollow() {
       >
         <FontAwesomeIcon icon={faInstagram} size="2x" />
       </a>
-      <h5>Site crée par Marion , Sylvanie, Alexandre et Cédric</h5>
+      <h5>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/All_rights_reserved_logo.svg/1200px-All_rights_reserved_logo.svg.png"
+          alt=""
+          width={10}
+          height={10}
+        />
+        Site crée par Marion , Sylvanie, Alexandre et Cédric
+      </h5>
     </div>
   );
 }

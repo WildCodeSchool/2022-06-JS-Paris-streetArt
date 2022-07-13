@@ -1,8 +1,9 @@
 import React from "react";
+import "./Description.css";
 
 function DescriptionC215() {
   return (
-    <div className="description215">
+    <div className="description">
       <p>
         Christian GUEMY, alias C215 (Artiste peintre), vit et travaille à
         Ivry-sur-Seine Christian Guémy alias C215 est un artiste urbain

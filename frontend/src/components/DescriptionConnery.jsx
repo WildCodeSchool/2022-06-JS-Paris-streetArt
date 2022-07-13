@@ -1,9 +1,10 @@
 import React from "react";
 import MapConnery from "./MapConnery";
+import "./Description.css";
 
 function DescriptionConnery() {
   return (
-    <div>
+    <div className="description">
       <p>
         Acteur et cinéaste britannique de renommée internationale. Dans le film
         'Le nom de la rose' de Jean-Jacques Annaud, il a joué le rôle principal
