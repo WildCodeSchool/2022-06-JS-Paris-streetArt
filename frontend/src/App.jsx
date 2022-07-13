@@ -30,6 +30,8 @@ function App() {
           <Route path="/oeuvres" element={<Oeuvres />} />
           <Route path="/localisation" element={<Localisation />} />
           <Route path="/descriptionPoncet" element={<DescriptionPoncet />} />
+        </Routes>
+        <Routes>
           <Route
             path="/descriptionLouisXIII"
             element={<DescriptionLouisXIII />}
