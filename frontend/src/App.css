@@ -4,6 +4,12 @@
   box-sizing: 0;
 }
 
+/* code vanie avant merger burger cedric :
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;*/
+
 body{
   background-image: url(/src/image/street-art.jpg);
   background-size: 950px;
@@ -19,6 +25,14 @@ body{
   /* justify-content: center; */
   /* align-items: center; */
   /* background-image: url(/src/image/street-art.jpg); */
+
+  /*code vanie antérieur au merge du burger
+    background-size: 280%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-color: rgb(200, 208, 211);
+  opacity: 0.36px;*/
 }
 
 /* .App-logo {
@@ -37,6 +51,8 @@ body{
 
 }
 
+
+/* logo reseaux sociaux avec lien vers les pages */
 a.social {
   margin: 0 1rem;
   transition: transform 250ms;
