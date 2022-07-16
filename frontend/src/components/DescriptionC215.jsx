@@ -1,5 +1,5 @@
 import React from "react";
-import "../Description.css";
+import "../CSS/Description.css";
 
 function DescriptionC215() {
   return (

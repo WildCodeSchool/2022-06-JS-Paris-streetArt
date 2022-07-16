@@ -1,6 +1,6 @@
 import React from "react";
 import MapConnery from "./MapConnery";
-import "../Description.css";
+import "../CSS/Description.css";
 
 function DescriptionConnery() {
   return (

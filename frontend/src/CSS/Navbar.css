@@ -1,16 +1,20 @@
 .navbar {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   position: fixed;
   width: 100%;
-  min-height: 75px;
+  height: 25px;
   padding: 1rem;
   background-color: black;
   color: white;
 }
-
+.navbar_logo{
+ margin-top: 0.5rem;
+ margin-right: 2rem;
+}
 .navbar_links {
   display: flex;
 }
@@ -27,17 +31,18 @@
   border: none;
   color: inherit;
 }
+
 ul {
   list-style-type: none;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) { */
   .navbar_links {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: fixed;
-    /* left: 0; */
+    left: 0;
     right: -100vw;
     bottom: 0;
     width: 0;
@@ -54,20 +59,20 @@ ul {
   }
 
   .show-nav .navbar_links {
-    width: 100vw;
-    right: 0;
+    width: 45%;
+    left: 0;
     visibility: visible;
   }
 
   /* petite barre sous liens */
-  .navbar_items::after {
+  /* .navbar_items::after {
     content: "";
     display: block;
     margin: 0 auto;
     width: 3vw;
     height: 1px;
     background: red;
-  }
+  } */
 
   /* suppression barre sous contact */
   .navbar_items:last-child::after {
@@ -83,8 +88,8 @@ ul {
   .navbar_burger {
     display: block;
     position: fixed;
-    top: 1rem;
-    right: 1rem;
+    top: 1.5rem;
+    left: 1rem;
   }
 
   .navbar_burger:hover {

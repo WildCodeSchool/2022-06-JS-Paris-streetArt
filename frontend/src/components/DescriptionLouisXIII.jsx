@@ -1,6 +1,6 @@
 import React from "react";
 import MapLouisXIII from "./MapLouisXIII";
-import "../Description.css";
+import "../CSS/Description.css";
 
 function DescriptionLouisXIII() {
   return (

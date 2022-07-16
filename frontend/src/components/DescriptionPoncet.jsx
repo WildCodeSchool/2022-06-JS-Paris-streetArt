@@ -1,6 +1,6 @@
 import React from "react";
 import MapPoncet from "./MapPoncet";
-import "../Description.css";
+import "../CSS/Description.css";
 
 function DescriptionPoncet() {
   return (

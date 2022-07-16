@@ -1,6 +1,6 @@
 import React from "react";
 import MapProvins from "./MapProvins";
-import "../Localisation.css";
+import "../CSS/Localisation.css";
 
 function Localisation() {
   return (

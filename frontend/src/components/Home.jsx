@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className="containercard">
       <h1> Artiste du Mois</h1>
-
+      <h3>C215</h3>
       <Link to="/descriptionC215">
         <img id="artist-of-month" src={C215} alt="C215" />
       </Link>

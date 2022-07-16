@@ -1,6 +1,6 @@
 import React from "react";
 import MapMalle from "./MapMalle";
-import "../Description.css";
+import "../CSS/Description.css";
 
 function DescriptionMalle() {
   return (
