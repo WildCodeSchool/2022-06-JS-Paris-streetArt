@@ -47,7 +47,7 @@ function App() {
           <Route path="/levalet" element={<Levalet />} />
           <Route path="/mto" element={<Mto />} />
         </Routes>
-<SocialFollow />
+        <SocialFollow />
       </div>
     </Router>
   );
