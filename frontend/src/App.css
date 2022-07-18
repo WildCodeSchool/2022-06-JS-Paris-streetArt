@@ -26,20 +26,6 @@ body {
   text-align: center;
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-} */
-
-/* nav {
-  display: flex;
-  justify-content: space-around;
-  background-image: url(/src/image/street-art.jpg);
-  background-size: auto;
-  height: 30%;
-  width: 100%;
-} */
-
 p {
   height: 800px;
   color: red;
@@ -56,6 +42,7 @@ p {
   padding-top: 50px;
   height: 50px;
 }
+
 
 a.social {
   margin: 0 1rem;
