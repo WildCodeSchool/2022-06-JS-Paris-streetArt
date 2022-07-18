@@ -13,9 +13,9 @@ function Navbar() {
   return (
     <header>
       <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"} `}>
-        <NavLink to="/home" className="navbar_logo" logo>
+        {/* <NavLink to="/home" className="navbar_logo" logo>
           <img src={Logo} alt="Logo" height={50} />
-        </NavLink>
+        </NavLink> */}
         <ul className="navbar_links">
           <li className="navbar_items slideInDown-1">
             <NavLink to="/artistes" className="navbar_link">
