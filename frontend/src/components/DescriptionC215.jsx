@@ -1,5 +1,4 @@
 import React from "react";
-import "../Description.css";
 
 function DescriptionC215() {
   return (
