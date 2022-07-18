@@ -10,7 +10,7 @@
   min-height: 100vh;
   display: flex;*/
 
-body{
+body {
   background-image: url(/src/image/street-art.jpg);
   background-size: 950px;
   background-repeat: no-repeat;
@@ -40,7 +40,6 @@ body{
   pointer-events: none;
 } */
 
-
 /* liens reseaux sociaux */
 .social-container {
   background: #eee;
@@ -48,9 +47,7 @@ body{
   position: fixed;
   width: 100%;
   text-align: center;
-
 }
-
 
 /* logo reseaux sociaux avec lien vers les pages */
 a.social {
