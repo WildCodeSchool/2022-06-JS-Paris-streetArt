@@ -1,8 +1,5 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable import/no-extraneous-dependencies */
 import React from "react";
 import { Link } from "react-router-dom";
-// eslint-disable-next-line prettier/prettier
 import banksy from "../image/banksy.jpg";
 
 function Artistes() {
