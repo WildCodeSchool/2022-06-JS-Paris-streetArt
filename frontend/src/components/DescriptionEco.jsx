@@ -1,9 +1,10 @@
 import React from "react";
 import MapEco from "./MapEco";
+import "../CSS/Description.css";
 
 function DescriptionEco() {
   return (
-    <div>
+    <div className="description">
       <p>
         Umberto Eco est un universitaire et écrivain italien. Surtout connu du
         grand public pour ses oeuvres romanesques, il est aussi auteur d'essais

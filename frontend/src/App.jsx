@@ -27,8 +27,12 @@ function App() {
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/artistes" element={<Artistes />} />
-          <Route path="/oeuvres" element={<Oeuvres />} />
+          <Route path="/gallerie" element={<Oeuvres />} />
           <Route path="/localisation" element={<Localisation />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+
+        <Routes>
           <Route path="/descriptionPoncet" element={<DescriptionPoncet />} />
         </Routes>
         <Routes>
@@ -41,7 +45,6 @@ function App() {
           <Route path="/descriptionConnery" element={<DescriptionConnery />} />
           <Route path="/descriptionEco" element={<DescriptionEco />} />
           <Route path="/descriptionC215" element={<DescriptionC215 />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="/banksy" element={<Banksy />} />
           <Route path="/levalet" element={<Levalet />} />
           <Route path="/mto" element={<Mto />} />

@@ -1,9 +1,10 @@
 import React from "react";
 import MapMalle from "./MapMalle";
+import "../CSS/Description.css";
 
 function DescriptionMalle() {
   return (
-    <div>
+    <div className="description">
       <p>
         Cinéaste français à succès, il a choisi l'institution Sainte Croix de
         Provins pour réaliser son long-métrage autobiographique 'Au Revoir Les

@@ -4,68 +4,66 @@
   box-sizing: 0;
 }
 
+/* code vanie avant merger burger cedric :
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;*/
+
 body {
-  display: flex;
-  justify-content: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /*text-align: center;*/
-  background-image: url(/src/image/street-art2.jpg);
-  background-size: 100% 100%;
+  background-image: url(/src/image/street-art.jpg);
+  background-size: 950px;
   background-repeat: no-repeat;
+  background-color: grey;
+  background-position-x: right;
+  background-position: center;
+  background-position-y: 140px;
+  /* width: 100%; */
+  /* height: 100%; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* background-image: url(/src/image/street-art.jpg); */
+
+  /*code vanie antérieur au merge du burger
+    background-size: 280%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-color: rgb(200, 208, 211);
+  opacity: 0.36px;*/
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
-nav {
-  display: flex;
-  justify-content: space-around;
-  background-image: url(/src/image/street-art.jpg);
-  background-size: auto;
-  height: 100px;
-}
-
+/* liens reseaux sociaux */
 .social-container {
   background: #eee;
   opacity: 0.6;
-  position: absolute;
-  bottom: -30;
+  position: fixed;
   width: 100%;
+  text-align: center;
 }
 
+/* logo reseaux sociaux avec lien vers les pages */
 a.social {
   margin: 0 1rem;
   transition: transform 250ms;
   display: inline-block;
 }
-
 a.social:hover {
   transform: translateY(-2px);
 }
-
 a.facebook {
   color: #4968ad;
 }
-
 a.twitter {
   color: #49a1eb;
 }
-
 a.instagram {
   color: #d6249f;
   background: radial-gradient(
