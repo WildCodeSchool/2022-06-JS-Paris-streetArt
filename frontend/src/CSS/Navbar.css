@@ -65,14 +65,14 @@ ul {
 }
 
 /* petite barre sous liens */
-/* .navbar_items::after {
+.navbar_items::after {
     content: "";
     display: block;
     margin: 0 auto;
     width: 3vw;
     height: 1px;
     background: red;
-  } */
+  }
 
 /* suppression barre sous contact */
 .navbar_items:last-child::after {
