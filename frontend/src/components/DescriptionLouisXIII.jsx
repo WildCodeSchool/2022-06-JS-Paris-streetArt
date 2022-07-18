@@ -5,6 +5,7 @@ import "../CSS/Description.css";
 function DescriptionLouisXIII() {
   return (
     <div className="description">
+      <h1>Louis XIII</h1>
       <p>
         Louis XIII est un roi de France de la dynastie des Bourbons. Surnommé
         "le Juste", il a régné de 1610 à 1643. En 1617, il porte confirmation

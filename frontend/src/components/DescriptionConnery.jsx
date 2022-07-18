@@ -5,6 +5,7 @@ import "../CSS/Description.css";
 function DescriptionConnery() {
   return (
     <div className="description">
+      <h1>Sean Connery</h1>
       <p>
         Acteur et cinéaste britannique de renommée internationale. Dans le film
         'Le nom de la rose' de Jean-Jacques Annaud, il a joué le rôle principal

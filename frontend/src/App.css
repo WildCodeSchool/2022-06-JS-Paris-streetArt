@@ -4,12 +4,6 @@
   box-sizing: 0;
 }
 
-/* code vanie avant merger burger cedric :
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;*/
-
 body {
   background-image: url(/src/image/street-art.jpg);
   background-size: 950px;
@@ -18,27 +12,7 @@ body {
   background-position-x: right;
   background-position: center;
   background-position-y: 140px;
-  /* width: 100%; */
-  /* height: 100%; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* background-image: url(/src/image/street-art.jpg); */
-
-  /*code vanie antérieur au merge du burger
-    background-size: 280%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-color: rgb(200, 208, 211);
-  opacity: 0.36px;*/
 }
-
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-} */
 
 /* liens reseaux sociaux */
 .social-container {
@@ -46,6 +20,7 @@ body {
   opacity: 0.6;
   position: fixed;
   width: 100%;
+  height: 100px;
   text-align: center;
 }
 
@@ -77,4 +52,24 @@ a.instagram {
   /* -webkit-background-clip: text;
    -webkit-text-fill-color: transparent; */
   border-radius: 20px;
+}
+
+footer {
+  position: bottom;
+  margin-top: 40px;
+}
+
+.Présentation {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Présentation h1 {
+  color: darkred;
+  text-align: center;
+}
+.Présentation p {
+  margin-top: 40px;
+  text-align: center;
 }

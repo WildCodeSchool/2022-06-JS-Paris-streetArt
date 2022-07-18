@@ -4,6 +4,7 @@ import "../CSS/Description.css";
 function DescriptionC215() {
   return (
     <div className="description">
+      <h1>C215</h1>
       <p>
         Christian GUEMY, alias C215 (Artiste peintre), vit et travaille à
         Ivry-sur-Seine Christian Guémy alias C215 est un artiste urbain
@@ -11,7 +12,8 @@ function DescriptionC215() {
         premières œuvres sur le tard, à partir de 2006. Enfant, il dessine
         toutefois avec du matériel que possédait sa mère et dans sa jeunesse, il
         réalise des bandes dessinées pour le journal de l'école ainsi que des
-        caricatures de professeurs et d'élèves. « Adolescent, j’avais un peu
+        caricatures de professeurs et d'élèves.
+        {/* « Adolescent, j’avais un peu
         taggé, mais ça n’avait rien de sérieux », confie-t-il. À l'été 1989, à
         l'âge de 15 ans, il graphe un peu, mais laisse tomber, ne se sentant pas
         en adéquation avec le mouvement hip-hop. Christian Guémy s'installe à

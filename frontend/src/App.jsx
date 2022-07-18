@@ -18,6 +18,7 @@ import DescriptionRose from "./components/DescriptionRose";
 import DescriptionConnery from "./components/DescriptionConnery";
 import DescriptionEco from "./components/DescriptionEco";
 import Localisation from "./components/Localisation";
+import Présentation from "./components/Présentation";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
+          <Route path="/" element={<Présentation />} />
           <Route path="/home" element={<Home />} />
           <Route path="/artistes" element={<Artistes />} />
           <Route path="/gallerie" element={<Oeuvres />} />

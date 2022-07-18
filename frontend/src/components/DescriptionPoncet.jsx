@@ -5,6 +5,7 @@ import "../CSS/Description.css";
 function DescriptionPoncet() {
   return (
     <div className="description">
+      <h1>André François-Poncet</h1>
       <p>
         Né à Provins, André François-Poncet a été à la fois homme politique,
         diplomate et écrivain. Il fut ambassadeur à Berlin puis en Italie jusque

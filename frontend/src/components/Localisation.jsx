@@ -6,7 +6,9 @@ function Localisation() {
   return (
     <div className="Localisation">
       <h2>PROVINS, FRANCE</h2>
-      <MapProvins />
+      <div className="carte">
+        <MapProvins />
+      </div>
     </div>
   );
 }

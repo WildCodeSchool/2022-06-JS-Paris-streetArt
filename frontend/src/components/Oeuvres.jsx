@@ -11,22 +11,58 @@ export default function Oeuvres() {
   return (
     <div className="container-img">
       <Link to="/DescriptionPoncet">
-        <img src={andre} alt="Poncet" height="230px" width="230px" />
+        <img
+          id="oeuvresImg"
+          src={andre}
+          alt="Poncet"
+          height="230px"
+          width="230px"
+        />
       </Link>
       <Link to="/DescriptionLouisXIII">
-        <img src={louis} alt="LouisXIII" height="230px" width="230px" />
+        <img
+          id="oeuvresImg"
+          src={louis}
+          alt="LouisXIII"
+          height="230px"
+          width="230px"
+        />
       </Link>
       <Link to="/DescriptionMalle">
-        <img src={louism} alt="Malle" height="230px" width="230px" />
+        <img
+          id="oeuvresImg"
+          src={louism}
+          alt="Malle"
+          height="230px"
+          width="230px"
+        />
       </Link>
       <Link to="/DescriptionRose">
-        <img src={rose} alt="rose" height="230px" width="230px" />
+        <img
+          id="oeuvresImg"
+          src={rose}
+          alt="rose"
+          height="230px"
+          width="230px"
+        />
       </Link>
       <Link to="/DescriptionConnery">
-        <img src={sean} alt="Connery" height="230px" width="230px" />
+        <img
+          id="oeuvresImg"
+          src={sean}
+          alt="Connery"
+          height="230px"
+          width="230px"
+        />
       </Link>
       <Link to="/DescriptionEco">
-        <img src={umberto} alt="Eco" height="230px" width="230px" />
+        <img
+          id="oeuvresImg"
+          src={umberto}
+          alt="Eco"
+          height="230px"
+          width="230px"
+        />
       </Link>
     </div>
   );

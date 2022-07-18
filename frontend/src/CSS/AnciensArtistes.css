@@ -1,0 +1,35 @@
+.banksy-img {
+  padding-left: 60px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banksy {
+  padding: 10px;
+}
+
+.Levalet-img {
+  padding-left: 60px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Levalet {
+  padding: 10px;
+}
+
+.Mto-img {
+  padding-left: 60px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Mto {
+  padding: 10px;
+}

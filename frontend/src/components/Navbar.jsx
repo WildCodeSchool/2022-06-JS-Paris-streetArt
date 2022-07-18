@@ -24,12 +24,12 @@ function Navbar() {
           </li>
           <li className="navbar_items slideInDown-2">
             <NavLink to="/gallerie" className="navbar_link">
-              Gallerie
+              Galerie
             </NavLink>
           </li>
           <li className="navbar_items slideInDown-3">
             <NavLink to="/home" className="navbar_link">
-              <img id="logo" src={Logo} alt="Logo" height={50} />
+              {/* <img id="logo" src={Logo} alt="Logo" height={50} /> */}
               <span id="home">Home</span>
             </NavLink>
           </li>

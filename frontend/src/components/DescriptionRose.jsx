@@ -5,6 +5,7 @@ import "../CSS/Description.css";
 function DescriptionRose() {
   return (
     <div className="description">
+      <h1>La rose de Provins</h1>
       <p>
         Ce serait vers 1240 que , de retour de croisade, le Comte de Champagne
         Thibaut IV installe la culture de la rose à Provins. C'est en 1759 que

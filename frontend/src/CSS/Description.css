@@ -1,8 +1,7 @@
 /*css de l'artiste du mois*/
 .containercard {
-  /* background-color:gray; */
-  /* height: 435px; */
-  height: 600px;
+  padding-left: 10vh;
+  height: 520px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,46 +9,82 @@
 }
 
 .containercard h1 {
-  margin-top: -25px;
+  margin-top: -70px;
+  color: darkred;
 }
+
+.containercard h3 {
+  color: darkred;
+}
+
 #artist-of-month {
   width: 250px;
-  margin-top: 25px;
+  margin-top: 40px;
   border-radius: 15px;
   border: solid black;
 }
 
-/*description C215*/
+/*description de toutes les images*/
 p {
   color: black;
   width: 250px;
   border: solid black;
   background: darkgray;
   border-radius: 10px;
-  margin-top: 50px;
   font-size: 20px;
   opacity: 0.75;
   padding: 15px;
   font-weight: bold;
+  z-index: 1;
 }
 .description {
+  padding-left: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: justify;
 }
 .description p {
-  margin-top: 150px;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.description span {
+  color: darkred;
+  font-size: x-large;
   align-items: center;
 }
 .description h2 {
   margin-top: 20px;
   text-align: center;
 }
+.description h1 {
+  margin-top: 20px;
+  color: darkred;
+  text-align: center;
+  font-size: 25px;
+}
 
 /*container des images des oeuvres*/
 .container-img {
-  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+#oeuvresImg {
+  padding: 5px;
+  padding-left: 60px;
+}
+.Artistes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 60px;
+}
+.Artistes img {
+  padding: 5px;
 }
