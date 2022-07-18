@@ -10,7 +10,7 @@ export default function Navbar() {
         <Link to="/oeuvres"> Oeuvres de l'artiste du mois </Link>
         <Link to="/home">
           {" "}
-          <img src={logo} alt="logo" height="100px" width="100px" />
+          <img src={logo} alt="logo" height="50px" width="50px" />
         </Link>
         <Link to="/Localisation">Localisation</Link>
         <Link to="/contact"> contact </Link>

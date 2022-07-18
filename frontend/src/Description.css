@@ -1,11 +1,7 @@
-p {
+.description215 {
   color: rgb(255, 0, 0);
   font-weight: bold;
   font-size: 75%;
   width: 80%;
-}
-
-.description215{
-  display: flex;
-  justify-content: center;
+  border: solid 2px;
 }
