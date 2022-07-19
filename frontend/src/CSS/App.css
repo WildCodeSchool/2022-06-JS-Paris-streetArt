@@ -1,8 +1,8 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: 0;
-}
+} 
 
 body {
   background-image: url(/src/image/street-art.jpg);
@@ -13,8 +13,11 @@ body {
   background-position: center;
   background-position-y: 140px;
 }
+.App {
+  display: flex;
+  flex-direction: column;
+}
 
-/* liens reseaux sociaux */
 .social-container {
   background: #eee;
   opacity: 0.6;
@@ -24,7 +27,6 @@ body {
   text-align: center;
 }
 
-/* logo reseaux sociaux avec lien vers les pages */
 a.social {
   margin: 0 1rem;
   transition: transform 250ms;
@@ -49,14 +51,12 @@ a.instagram {
     #d6249f 60%,
     #285aeb 90%
   );
-  /* -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent; */
+
   border-radius: 20px;
 }
 
 footer {
   position: bottom;
-  margin-top: 40px;
 }
 
 .Présentation {
@@ -72,4 +72,39 @@ footer {
 .Présentation p {
   margin-top: 40px;
   text-align: center;
+}
+
+@media screen and (min-width:767px) {
+  body {
+    background-size: 1670px;
+    background-position-y: 220px;
+    background-position-x: -250px;
+  }
+  .social-container {
+    margin-top: 370px;
+    bottom: 0;
+    margin-bottom: 0;
+  }
+
+  footer {
+    height: 200px;
+  }
+}
+*/
+
+body {
+  background-image: url(/src/image/street-art.jpg);
+  background-repeat: no-repeat;
+  background-size: cover%;
+  background-color: grey;
+/*   
+  background-position-x: right;
+  background-position: center;
+  background-position-y: 140px;*/
+} 
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }

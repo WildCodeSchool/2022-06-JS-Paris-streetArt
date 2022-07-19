@@ -2,6 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import C215 from "../image/C215.jpg";
+import "../CSS/Description.css";
 
 function Home() {
   return (

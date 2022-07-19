@@ -1,6 +1,7 @@
 import React from "react";
 import MapConnery from "./MapConnery";
 import "../CSS/Description.css";
+import SocialFollow from "./SocialFollow";
 
 function DescriptionConnery() {
   return (
@@ -16,6 +17,7 @@ function DescriptionConnery() {
       <div className="carte">
         <h2>17 rue St Thibault</h2>
         <MapConnery />
+        <SocialFollow />
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import "./App.css";
+import "./CSS/App.css";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Oeuvres from "./components/Oeuvres";
@@ -18,7 +18,7 @@ import DescriptionRose from "./components/DescriptionRose";
 import DescriptionConnery from "./components/DescriptionConnery";
 import DescriptionEco from "./components/DescriptionEco";
 import Localisation from "./components/Localisation";
-import Présentation from "./components/Présentation";
+import Présentation from "./components/Presentation";
 
 function App() {
   return (

@@ -1,6 +1,7 @@
 import React from "react";
 import MapLouisXIII from "./MapLouisXIII";
 import "../CSS/Description.css";
+import SocialFollow from "./SocialFollow";
 
 function DescriptionLouisXIII() {
   return (
@@ -19,6 +20,7 @@ function DescriptionLouisXIII() {
       <div className="carte">
         <h2>1 rue St Thibault</h2>
         <MapLouisXIII />
+        <SocialFollow />
       </div>
     </div>
   );

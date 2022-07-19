@@ -1,6 +1,7 @@
 import React from "react";
 import MapEco from "./MapEco";
 import "../CSS/Description.css";
+import SocialFollow from "./SocialFollow";
 
 function DescriptionEco() {
   return (
@@ -16,6 +17,7 @@ function DescriptionEco() {
       <div className="carte">
         <h2>3 rue St Thibault</h2>
         <MapEco />
+        <SocialFollow />
       </div>
     </div>
   );

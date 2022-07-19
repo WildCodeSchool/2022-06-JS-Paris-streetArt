@@ -4,7 +4,6 @@ h2 {
 
 .Localisation {
   margin-top: 30px;
-  padding-left: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,6 +11,35 @@ h2 {
 }
 
 .carte {
-  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
   margin-bottom: 100px;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* footer {
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+@media screen and (min-width:767px) {
+  .Localisation .carte {
+    display: flex;
+    flex-direction: row;
+     ;
+    
+    
+  }
+
+
+
 }

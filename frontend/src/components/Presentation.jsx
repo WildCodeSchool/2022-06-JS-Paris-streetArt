@@ -1,4 +1,6 @@
 import React from "react";
+import "../CSS/PresentationMedia.css";
+import SocialFollow from "./SocialFollow";
 
 export default function Présentation() {
   return (
@@ -12,6 +14,7 @@ export default function Présentation() {
         guise, rendez-vous sur place pour admirer les oeuvres, grâce à notre
         géolocalisation ou en profiter de votre canapé !
       </p>
+      <SocialFollow />
     </div>
   );
 }

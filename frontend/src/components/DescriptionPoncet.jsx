@@ -1,6 +1,7 @@
 import React from "react";
 import MapPoncet from "./MapPoncet";
 import "../CSS/Description.css";
+import SocialFollow from "./SocialFollow";
 
 function DescriptionPoncet() {
   return (
@@ -16,6 +17,7 @@ function DescriptionPoncet() {
       <div className="carte">
         <h2>16 rue Valentin Abeille</h2>
         <MapPoncet />
+        <SocialFollow />
       </div>
     </div>
   );
