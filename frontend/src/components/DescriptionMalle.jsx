@@ -4,7 +4,7 @@ import "../CSS/Description.css";
 
 function DescriptionMalle() {
   return (
-    <div className="description">
+    <div className="descriptionMalle">
       <h1>Louis Malle</h1>
       <p>
         Cinéaste français à succès, il a choisi l'institution Sainte Croix de

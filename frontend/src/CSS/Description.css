@@ -9,10 +9,24 @@
 
 .containercard h1 {
   color: darkred;
+  background-color: darkgrey;
+  border: 2px black solid;
+  border-radius: 5px;
+  font-size: 30px;
+  margin-top: 20px;
+  padding-left: 23px;
+  padding-right: 23px;
 }
 
 .containercard h3 {
   color: darkred;
+  background-color: darkgrey;
+  border: 2px black solid;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 30px;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 
 #artist-of-month {
@@ -20,6 +34,8 @@
   margin-top: 40px;
   border-radius: 15px;
   border: solid black;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 /*description de toutes les images*/
@@ -35,73 +51,243 @@ p {
   font-weight: bold;
   z-index: 1;
 }
-.description {
+.descriptionC215 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: justify;
 }
-.description p {
+
+.description span {
+  color: darkred;
+  font-size: x-large;
+  align-items: center;
+}
+
+.descriptionC215 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+.descriptionC215 h1 {
+  margin-top: 20px;
+  color: darkred;
+  background-color: darkgrey;
+  border: 2px black solid;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 25px;
+}
+.descriptionC215 p {
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
   align-items: center;
 }
-.description span {
-  color: darkred;
-  font-size: x-large;
+
+.descriptionPoncet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+.descriptionPoncet p {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
   align-items: center;
 }
-.description h2 {
-  margin-top: 20px;
-  text-align: center;
-}
-.description h1 {
+.descriptionPoncet h1 {
   margin-top: 20px;
   color: darkred;
+  background-color: darkgrey;
+  border: 2px black solid;
+  border-radius: 5px;
   text-align: center;
   font-size: 25px;
 }
-
-/*container des images des oeuvres*/
-.container-img {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 10px;
-}
-#oeuvresImg {
-  padding: 5px;
-}
-.Artistes {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 10px;
-}
-.Artistes img {
-  padding: 5px;
+.descriptionPoncet h2 {
+  margin-top: 20px;
+  text-align: center;
+  background-color: darkgrey;
+  border: 2px black solid;
+  border-radius: 5px;
 }
 
-@media screen and (min-width:767px) {
- 
-  .containercard {
-    margin-top: 10px;
-  }
-  .containercard h1 {
-    margin-top: 80px;
-    font-size: 55px;
-  }
-  .containercard h3 {
-    font-size: 40px;
-  }
-  #artist-of-month {
-    width: 350px;
-    margin-top: 50px;
-  }
+.descriptionConnery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+.descriptionConnery p {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.descriptionConnery h1 {
+  margin-top: 20px;
+  color: darkred;
+  background-color: darkgrey;
+  border: 2px black solid;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 25px;
+}
+.descriptionConnery h2 {
+  margin-top: 20px;
+  text-align: center;
+  background-color: darkgrey;
+  border: 2px black solid;
+  border-radius: 5px;
+}
+
+.descriptionMalle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+.descriptionMalle p {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.descriptionMalle h1 {
+  margin-top: 20px;
+  color: darkred;
+  background-color: darkgrey;
+  border: 2px black solid;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 25px;
+}
+.descriptionMalle h2 {
+  margin-top: 20px;
+  text-align: center;
+  background-color: darkgrey;
+  border: 2px black solid;
+  border-radius: 5px;
+}
+
+.descriptionEco {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+.descriptionEco p {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.descriptionEco h1 {
+  margin-top: 20px;
+  color: darkred;
+  background-color: darkgrey;
+  border: 2px black solid;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 25px;
+}
+.descriptionEco h2 {
+  margin-top: 20px;
+  text-align: center;
+  background-color: darkgrey;
+  border: 2px black solid;
+  border-radius: 5px;
+}
+
+.descriptionLouis13 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+.descriptionLouis13 p {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.descriptionLouis13 h1 {
+  margin-top: 20px;
+  color: darkred;
+  background-color: darkgrey;
+  border: 2px black solid;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 25px;
+}
+.descriptionLouis13 h2 {
+  margin-top: 20px;
+  text-align: center;
+  background-color: darkgrey;
+  border: 2px black solid;
+  border-radius: 5px;
+}
+
+
+.descriptionRose {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+.descriptionRose p {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.descriptionRose h1 {
+  margin-top: 20px;
+  color: darkred;
+  background-color: darkgrey;
+  border: 2px black solid;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 25px;
+}
+.descriptionRose h2 {
+  margin-top: 20px;
+  text-align: center;
+  background-color: darkgrey;
+  border: 2px black solid;
+  border-radius: 5px;
+}
+
+
+@media screen and (min-width: 767px) {
   .description h1 {
     font-size: 50px;
+    background-color: darkgrey;
+    border: 2px black solid;
+    border-radius: 5px;
   }
 
+  .containercard h1 {
+    /* width: 80%; */
+    font-size: 30px;
+    text-align: center;
+    /* margin-top: -30px; */
+  }
+  p {
+    margin-top: 50px;
+    width: 80%;
+    font-size: 22px;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+  }
 }

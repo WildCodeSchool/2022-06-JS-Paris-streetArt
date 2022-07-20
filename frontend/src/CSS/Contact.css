@@ -2,7 +2,19 @@
   max-width: 500px;
   margin: 100px auto;
   margin-top: 130px;
-} 
+  color: aliceblue;
+}
+
+.contact h1 {
+  font-size: 20px;
+  padding-left: 50px;
+  color: darkred;
+  background: darkgray;
+  border-radius: 5px;
+  border: 2px black solid;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
 
 .contact_form {
   /* width: 300px; */
@@ -35,8 +47,22 @@ button {
   margin-bottom: -5px;
 }
 
-input, textarea{
+input,
+textarea {
   width: 300px;
 }
- 
-  
+
+@media screen and (min-width: 767px) {
+  input,
+  textarea {
+    width: 600px;
+    height: 40px;
+  }
+  .contact {
+    font-size: x-large;
+  }
+  .contact h1 {
+    font-size: 35px;
+    padding-left: 70px;
+  }
+}

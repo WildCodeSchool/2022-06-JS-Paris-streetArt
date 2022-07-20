@@ -1,5 +1,9 @@
-h2 {
-  color: brown;
+.Localisation h2 {
+  color: darkred;
+  background: darkgray;
+  border-radius: 5px;
+  border: 2px black solid;
+  margin-bottom: 20px;
 }
 
 .Localisation {
@@ -19,27 +23,19 @@ h2 {
   margin-bottom: 100px;
 }
 
-p {
+.Localisation p {
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
-/* footer {
-  margin-top: -20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
-@media screen and (min-width:767px) {
-  .Localisation .carte {
-    display: flex;
-    flex-direction: row;
-     ;
-    
-    
+
+@media screen and (min-width: 767px) {
+  .Localisation h2 {
+    font-size: 40px;
   }
-
-
-
+  .Localisation img {
+    width: 500px;
+    height: 350px;
+  }
 }

@@ -6,6 +6,7 @@ import louism from "../image/Louis Malle.jpg";
 import rose from "../image/Rose de Provins.jpg";
 import sean from "../image/Seanconnery.jpg";
 import umberto from "../image/Umberto ECO.jpg";
+import "../CSS/oeuvres.css";
 
 export default function Oeuvres() {
   return (

@@ -4,7 +4,7 @@ import "../CSS/Description.css";
 
 function DescriptionRose() {
   return (
-    <div className="description">
+    <div className="descriptionRose">
       <h1>La rose de Provins</h1>
       <p>
         Ce serait vers 1240 que , de retour de croisade, le Comte de Champagne

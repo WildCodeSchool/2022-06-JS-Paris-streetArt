@@ -3,7 +3,7 @@ import "../CSS/Description.css";
 
 function DescriptionC215() {
   return (
-    <div className="description">
+    <div className="descriptionC215">
       <h1>C215</h1>
       <p>
         Christian GUEMY, alias C215 (Artiste peintre), vit et travaille à

@@ -1,11 +1,10 @@
 import React from "react";
 import MapLouisXIII from "./MapLouisXIII";
 import "../CSS/Description.css";
-import SocialFollow from "./Footer";
 
 function DescriptionLouisXIII() {
   return (
-    <div className="description">
+    <div className="descriptionLouis13">
       <h1>Louis XIII</h1>
       <p>
         Louis XIII est un roi de France de la dynastie des Bourbons. Surnommé
@@ -20,7 +19,6 @@ function DescriptionLouisXIII() {
       <div className="carte">
         <h2>1 rue St Thibault</h2>
         <MapLouisXIII />
-        <SocialFollow />
       </div>
     </div>
   );

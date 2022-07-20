@@ -1,11 +1,10 @@
 import React from "react";
 import MapConnery from "./MapConnery";
 import "../CSS/Description.css";
-import SocialFollow from "./Footer";
 
 function DescriptionConnery() {
   return (
-    <div className="description">
+    <div className="descriptionConnery">
       <h1>Sean Connery</h1>
       <p>
         Acteur et cinéaste britannique de renommée internationale. Dans le film
@@ -17,7 +16,6 @@ function DescriptionConnery() {
       <div className="carte">
         <h2>17 rue St Thibault</h2>
         <MapConnery />
-        <SocialFollow />
       </div>
     </div>
   );

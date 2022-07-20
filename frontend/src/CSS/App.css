@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* cursor: pointer; */
+  /* cursor: url("./src/image/curseur.png"), pointer; */
 }
 
 /*
@@ -64,4 +66,10 @@ body {
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
+}
+
+@media screen and (min-width:767px) {
+  body {
+    background-position-x: -100px;
+  }
 }

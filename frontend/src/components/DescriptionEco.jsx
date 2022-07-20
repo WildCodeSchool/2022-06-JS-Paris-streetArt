@@ -1,11 +1,10 @@
 import React from "react";
 import MapEco from "./MapEco";
 import "../CSS/Description.css";
-import SocialFollow from "./Footer";
 
 function DescriptionEco() {
   return (
-    <div className="description">
+    <div className="descriptionEco">
       <h1>Umberto Eco</h1>
       <p>
         Universitaire et écrivain italien. Surtout connu du grand public pour
@@ -17,7 +16,6 @@ function DescriptionEco() {
       <div className="carte">
         <h2>3 rue St Thibault</h2>
         <MapEco />
-        <SocialFollow />
       </div>
     </div>
   );

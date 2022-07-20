@@ -1,11 +1,10 @@
 import React from "react";
 import MapPoncet from "./MapPoncet";
 import "../CSS/Description.css";
-import SocialFollow from "./Footer";
 
 function DescriptionPoncet() {
   return (
-    <div className="description">
+    <div className="descriptionPoncet">
       <h1>André François-Poncet</h1>
       <p>
         Né à Provins, André François-Poncet a été à la fois homme politique,
@@ -17,7 +16,6 @@ function DescriptionPoncet() {
       <div className="carte">
         <h2>16 rue Valentin Abeille</h2>
         <MapPoncet />
-        <SocialFollow />
       </div>
     </div>
   );

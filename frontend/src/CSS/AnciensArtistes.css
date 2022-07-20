@@ -4,6 +4,14 @@
   flex-direction: column;
   align-items: center;
 }
+.banksy-img h2 {
+  color: darkred;
+  background-color: darkgrey;
+  border: 2px black solid;
+  border-radius: 5px;
+  width: 60%;
+  text-align: center;
+}
 
 .banksy {
   padding: 10px;
@@ -32,7 +40,50 @@
   padding: 10px;
 }
 
-.social-container{
-  height: 10%;
-  margin-bottom: -263px;
+/*container des images des oeuvres*/
+
+.Artistes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+}
+.Artistes h1 {
+  color: darkred;
+  background-color: darkgrey;
+  border: 2px black solid;
+  border-radius: 5px;
+  width: 65%;
+  font-size: 30px;
+  text-align: center;
+}
+.Artistes img {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+@media screen and (min-width: 767px) {
+  .Artistes {
+    display: block;
+    text-align: center;
+  }
+  .Artistes img {
+    margin: 20px;
+  }
+  .Artistes h1 {
+    width: 60%;
+    margin-left: 250px;
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  .banksy-img {
+    margin-top: -50px;
+    display: block;
+  }
+  .banksy-img h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-left: 260px;
+    margin-bottom: 40px;
+  }
 }

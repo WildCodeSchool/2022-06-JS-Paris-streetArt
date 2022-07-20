@@ -5,6 +5,7 @@ import banksy from "../image/banksy.jpg";
 function Artistes() {
   return (
     <div className="Artistes">
+      <h1>Artistes des mois précédents</h1>
       <Link to="/banksy">
         <div className="espace" />
         <img src={banksy} alt="banksy" height={200} width={250} />
