@@ -1,7 +1,7 @@
 import React from "react";
 import MapProvins from "./MapProvins";
 import "../CSS/Localisation.css";
-import SocialFollow from "./SocialFollow";
+import SocialFollow from "./Footer";
 
 function Localisation() {
   return (

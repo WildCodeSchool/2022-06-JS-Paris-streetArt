@@ -2,11 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./CSS/App.css";
 import Home from "./components/Home";
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import Oeuvres from "./components/Oeuvres";
 import DescriptionC215 from "./components/DescriptionC215";
 import Contact from "./components/Contact";
-import SocialFollow from "./components/SocialFollow";
+import Footer from "./components/Footer";
 import Artistes from "./components/Artistes";
 import Banksy from "./components/Banksy";
 import Levalet from "./components/Levalet";
@@ -24,7 +24,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar />
+        <Header />
         <Routes>
           <Route path="/" element={<Présentation />} />
           <Route path="/home" element={<Home />} />
@@ -51,7 +51,7 @@ function App() {
           <Route path="/levalet" element={<Levalet />} />
           <Route path="/mto" element={<Mto />} />
         </Routes>
-        <SocialFollow />
+        <Footer />
       </div>
     </Router>
   );

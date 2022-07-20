@@ -1,9 +1,10 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
-} 
+  box-sizing: border-box;
+}
 
+/*
 body {
   background-image: url(/src/image/street-art.jpg);
   background-size: 950px;
@@ -18,46 +19,8 @@ body {
   flex-direction: column;
 }
 
-.social-container {
-  background: #eee;
-  opacity: 0.6;
-  position: fixed;
-  width: 100%;
-  height: 100px;
-  text-align: center;
-}
 
-a.social {
-  margin: 0 1rem;
-  transition: transform 250ms;
-  display: inline-block;
-}
-a.social:hover {
-  transform: translateY(-2px);
-}
-a.facebook {
-  color: #4968ad;
-}
-a.twitter {
-  color: #49a1eb;
-}
-a.instagram {
-  color: #d6249f;
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
 
-  border-radius: 20px;
-}
-
-footer {
-  position: bottom;
-}
 
 .Présentation {
   margin-top: 20px;
@@ -80,27 +43,21 @@ footer {
     background-position-y: 220px;
     background-position-x: -250px;
   }
-  .social-container {
-    margin-top: 370px;
-    bottom: 0;
-    margin-bottom: 0;
-  }
 
-  footer {
-    height: 200px;
-  }
+
+
 }
 */
 
 body {
   background-image: url(/src/image/street-art.jpg);
   background-repeat: no-repeat;
-  background-size: cover%;
+  background-size: cover;
   background-color: grey;
-/*   
-  background-position-x: right;
+  background-position-x: -350px;
+  /* background-position-x: right;
   background-position: center;
-  background-position-y: 140px;*/
+  background-position-y: 140px;  */
 } 
 .App {
   display: flex;

@@ -1,7 +1,7 @@
 import React from "react";
 import MapPoncet from "./MapPoncet";
 import "../CSS/Description.css";
-import SocialFollow from "./SocialFollow";
+import SocialFollow from "./Footer";
 
 function DescriptionPoncet() {
   return (

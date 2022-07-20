@@ -1,7 +1,7 @@
 import React from "react";
 import MapLouisXIII from "./MapLouisXIII";
 import "../CSS/Description.css";
-import SocialFollow from "./SocialFollow";
+import SocialFollow from "./Footer";
 
 function DescriptionLouisXIII() {
   return (

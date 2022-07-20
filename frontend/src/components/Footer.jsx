@@ -5,8 +5,9 @@ import {
   faTwitter,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import "../CSS/Footer.css";
 
-function SocialFollow() {
+function Footer() {
   return (
     <footer>
       <div className="social-container">
@@ -41,4 +42,4 @@ function SocialFollow() {
   );
 }
 
-export default SocialFollow;
+export default Footer;

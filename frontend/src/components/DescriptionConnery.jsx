@@ -1,7 +1,7 @@
 import React from "react";
 import MapConnery from "./MapConnery";
 import "../CSS/Description.css";
-import SocialFollow from "./SocialFollow";
+import SocialFollow from "./Footer";
 
 function DescriptionConnery() {
   return (

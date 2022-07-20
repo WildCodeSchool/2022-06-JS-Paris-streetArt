@@ -1,7 +1,7 @@
 import React from "react";
 import MapEco from "./MapEco";
 import "../CSS/Description.css";
-import SocialFollow from "./SocialFollow";
+import SocialFollow from "./Footer";
 
 function DescriptionEco() {
   return (

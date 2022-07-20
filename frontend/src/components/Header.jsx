@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import "../CSS/Navbar.css";
+import "../CSS/Header.css";
 import { NavLink } from "react-router-dom";
 import Logo from "../image/logo-street-art.png";
 
-function Navbar() {
+function Header() {
   const [showLinks, setShowLinks] = useState(false);
 
   const handleShowLinks = () => {
@@ -56,4 +56,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Header;
