@@ -23,7 +23,14 @@
   flex-direction: column;
   align-items: center;
 }
-
+.Levalet-img h2 {
+  color: darkred;
+  background-color: darkgrey;
+  border: 2px black solid;
+  border-radius: 5px;
+  width: 60%;
+  text-align: center;
+}
 .Levalet {
   padding: 10px;
 }
@@ -35,9 +42,16 @@
   flex-direction: column;
   align-items: center;
 }
-
 .Mto {
   padding: 10px;
+}
+.Mto-img h2 {
+  color: darkred;
+  background-color: darkgrey;
+  border: 2px black solid;
+  border-radius: 5px;
+  width: 60%;
+  text-align: center;
 }
 
 /*container des images des oeuvres*/
@@ -81,6 +95,26 @@
     display: block;
   }
   .banksy-img h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-left: 260px;
+    margin-bottom: 40px;
+  }
+  .Levalet-img {
+    margin-top: -50px;
+    display: block;
+  }
+  .Levalet-img h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-left: 260px;
+    margin-bottom: 40px;
+  }
+  .Mto-img {
+    margin-top: -50px;
+    display: block;
+  }
+  .Mto-img h2 {
     font-size: 40px;
     text-align: center;
     margin-left: 260px;
