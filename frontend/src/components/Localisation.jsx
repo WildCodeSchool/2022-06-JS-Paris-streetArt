@@ -1,12 +1,13 @@
 import React from "react";
 import MapProvins from "./MapProvins";
 import "../CSS/Localisation.css";
+import mairie from "../image/mairie.jpg";
 
 function Localisation() {
   return (
     <div className="Localisation">
       <h2>PROVINS, FRANCE</h2>
-      <img src="./src/image/hotel de villes.jpg" alt="" width={300} />
+      <img src={mairie} alt="" width={300} />
       <div className="carte">
         <p>
           Jolie ville médiévale du XI au XIIIème siècle <br /> figurant au
