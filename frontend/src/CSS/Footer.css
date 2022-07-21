@@ -41,9 +41,8 @@ h5 {
   text-align: center;
 }
 
-@media screen and (min-width:767px) {
-  
-  .social-container { 
+@media screen and (min-width: 767px) {
+  .social-container {
     display: block;
     text-align: center;
   }

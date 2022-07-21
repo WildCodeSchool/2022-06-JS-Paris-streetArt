@@ -20,11 +20,11 @@
 }
 
 @media screen and (min-width: 767px) {
- .Presentation h1 {
+  .Presentation h1 {
     width: 80%;
     font-size: 25px;
     text-align: center;
-    margin-top: -30px
+    margin-top: -30px;
   }
   .Presentation p {
     margin-top: 50px;

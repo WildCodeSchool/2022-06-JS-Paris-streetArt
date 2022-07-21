@@ -60,7 +60,7 @@ body {
   /* background-position-x: right;
   background-position: center;
   background-position-y: 140px;  */
-} 
+}
 .App {
   display: flex;
   flex-direction: column;
@@ -68,7 +68,7 @@ body {
   height: 100vh;
 }
 
-@media screen and (min-width:767px) {
+@media screen and (min-width: 767px) {
   body {
     background-position-x: -100px;
   }
