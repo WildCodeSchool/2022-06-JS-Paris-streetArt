@@ -2,7 +2,7 @@
   max-width: 500px;
   margin: 100px auto;
   margin-top: 130px;
-  color: aliceblue;
+  color: darkred;
 }
 
 .contact h1 {
@@ -42,9 +42,14 @@ button {
   /* width: 300px; */
 }
 .contact_form button {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-weight: bold;
   margin-top: 35px;
   margin-bottom: -5px;
+  color: darkred;
+  background: darkgray;
+  border-radius: 5px;
+  border: 2px black solid;
 }
 
 input,
@@ -64,5 +69,8 @@ textarea {
   .contact h1 {
     font-size: 35px;
     padding-left: 70px;
+  }
+  .contact_form button {
+    font-size: 1.5rem;
   }
 }

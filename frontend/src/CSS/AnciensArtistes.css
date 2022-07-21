@@ -36,7 +36,7 @@
 }
 
 .Mto-img {
-  padding-left: 60px;
+  /* padding-left: 60px; */
   margin-top: 10px;
   display: flex;
   flex-direction: column;
@@ -110,14 +110,17 @@
     margin-left: 260px;
     margin-bottom: 40px;
   }
+  
+
   .Mto-img {
-    margin-top: -50px;
+    margin-top: 20px;
     display: block;
   }
   .Mto-img h2 {
     font-size: 40px;
     text-align: center;
-    margin-left: 260px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 40px;
   }
 }
