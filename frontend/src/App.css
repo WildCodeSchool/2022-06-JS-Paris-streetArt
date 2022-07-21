@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: 0;
+  /* cursor: pointer; */
+  cursor: url("./src/image/curseur.png"), pointer;
 }
 
 /* code vanie avant merger burger cedric :
