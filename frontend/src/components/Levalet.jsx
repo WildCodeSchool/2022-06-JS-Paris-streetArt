@@ -4,7 +4,7 @@ import "../CSS/AnciensArtistes.css";
 function Levalet() {
   return (
     <div className="Levalet-img">
-      <h2>Peinture de Levalet</h2>
+      <h2>Oeuvres de Levalet</h2>
 
       <img
         className="Levalet"

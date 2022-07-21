@@ -9,7 +9,7 @@
   font-size: 20px;
   padding-left: 50px;
   color: darkred;
-  background: darkgray;
+  background-color: rgb(245, 184, 18);
   border-radius: 5px;
   border: 2px black solid;
   margin-top: -50px;
@@ -47,7 +47,7 @@ button {
   margin-top: 35px;
   margin-bottom: -5px;
   color: darkred;
-  background: darkgray;
+  background-color: rgb(245, 184, 18);
   border-radius: 5px;
   border: 2px black solid;
 }

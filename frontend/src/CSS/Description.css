@@ -70,7 +70,7 @@ p {
   margin-top: 20px;
   color: darkred;
   padding: 3px;
-  background-color: darkgrey;
+  background-color: rgb(245, 184, 18);
   border: 2px black solid;
   border-radius: 5px;
   text-align: center;
@@ -102,7 +102,7 @@ p {
   margin-top: 20px;
   color: darkred;
   padding: 3px;
-  background-color: darkgrey;
+  background-color: rgb(245, 184, 18);
   border: 2px black solid;
   border-radius: 5px;
   text-align: center;
@@ -115,7 +115,7 @@ p {
   text-align: center;
   color: darkred;
   padding: 3px;
-  background-color: darkgrey;
+  background-color: rgb(245, 184, 18);
   border: 2px black solid;
   border-radius: 5px;
 }
@@ -139,7 +139,7 @@ p {
   margin-top: 20px;
   color: darkred;
   padding: 3px;
-  background-color: darkgrey;
+  background-color: rgb(245, 184, 18);
   border: 2px black solid;
   border-radius: 5px;
   text-align: center;
@@ -152,7 +152,7 @@ p {
   text-align: center;
   color: darkred;
   padding: 3px;
-  background-color: darkgrey;
+  background-color: rgb(245, 184, 18);
   border: 2px black solid;
   border-radius: 5px;
 }
@@ -176,7 +176,7 @@ p {
   margin-right: auto;
   color: darkred;
   padding: 3px;
-  background-color: darkgrey;
+  background-color: rgb(245, 184, 18);
   border: 2px black solid;
   border-radius: 5px;
   text-align: center;
@@ -189,7 +189,7 @@ p {
   color: darkred;
   padding: 3px;
   text-align: center;
-  background-color: darkgrey;
+  background-color: rgb(245, 184, 18);
   border: 2px black solid;
   border-radius: 5px;
 }
@@ -213,7 +213,7 @@ p {
   margin-right: auto;
   color: darkred;
   padding: 3px;
-  background-color: darkgrey;
+  background-color: rgb(245, 184, 18);
   border: 2px black solid;
   border-radius: 5px;
   text-align: center;
@@ -226,7 +226,7 @@ p {
   color: darkred;
   padding: 3px;
   text-align: center;
-  background-color: darkgrey;
+  background-color: rgb(245, 184, 18);
   border: 2px black solid;
   border-radius: 5px;
 }
@@ -250,7 +250,7 @@ p {
   margin-right: auto;
   color: darkred;
   padding: 3px;
-  background-color: darkgrey;
+  background-color: rgb(245, 184, 18);
   border: 2px black solid;
   border-radius: 5px;
   text-align: center;
@@ -263,7 +263,7 @@ p {
   color: darkred;
   padding: 3px;
   text-align: center;
-  background-color: darkgrey;
+  background-color: rgb(245, 184, 18);
   border: 2px black solid;
   border-radius: 5px;
 }
@@ -287,7 +287,7 @@ p {
   margin-right: auto;
   color: darkred;
   padding: 3px;
-  background-color: darkgrey;
+  background-color: rgb(245, 184, 18);
   border: 2px black solid;
   border-radius: 5px;
   text-align: center;
@@ -300,7 +300,7 @@ p {
   color: darkred;
   padding: 3px;
   text-align: center;
-  background-color: darkgrey;
+  background-color: rgb(245, 184, 18);
   border: 2px black solid;
   border-radius: 5px;
 }
@@ -308,7 +308,7 @@ p {
 @media screen and (min-width: 767px) {
   .description h1 {
     font-size: 50px;
-    background-color: darkgrey;
+    background-color: rgb(245, 184, 18);
     border: 2px black solid;
     border-radius: 5px;
   }
