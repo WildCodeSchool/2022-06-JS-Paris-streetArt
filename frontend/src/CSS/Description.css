@@ -8,7 +8,7 @@
 
 .containercard h1 {
   color: darkred;
-  background-color: darkgrey;
+  background-color: rgb(245, 184, 18);
   border: 2px black solid;
   border-radius: 5px;
   font-size: 30px;
@@ -19,7 +19,7 @@
 
 .containercard h3 {
   color: darkred;
-  background-color: darkgrey;
+  background-color: rgb(245, 184, 18);
   border: 2px black solid;
   border-radius: 5px;
   margin-top: 20px;
